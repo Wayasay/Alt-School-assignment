@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+header{
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12%;
+    
+}
+
+.scimg{
+    display: flex;
+    align-items: center;
+    
+}
+.url{
+    color: blue;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar .url{
+    color: blue;
+}
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0px 30px;
+    text-decoration: none;
+}
+.sideheader a{
+    text-decoration: none;
+    list-style: none;
+}
+.tff{
+    background-color: rgba(5, 117, 230, 0.993);
+    color: white;
+    border: none;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+    margin-left: 14px;
+}
+.firstside{
+    text-align: center;
+}
+.firsttext{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 34px;
+}
+.secondtext{
+    margin-top: 35px;
+    text-align: center;
+}
+span{
+    color: rgba(33, 46, 230, 0.993);
+    font-weight: bold;
+}
+.lowtext{
+    font-size: 14px;
+    margin-top: 27px;
+    text-align: center;
+}
+.signup{
+    margin-left: 42%;
+    display: flex;
+    margin-top: 4%;
+    text-align: center;
+
+}
+.sign{
+    margin-right: 13%;
+    background-color: rgba(5, 117, 230, 0.993);
+    color: white;
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+}
+.learn{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left:-59px ;
+    color:blue;
+}
+
+.overlay{
+    margin-top: 60px;
+    text-align: center;
+}
+.frame{
+
+    background: url(images/overlay2.svg);
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-left:11%;
+}
+.frame2{
+    margin-top: 6%;
+    box-shadow: none;
+    z-index: 100;
+}
+.onepossibility{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+.onepossibility .p2{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.onepossibility .p1{
+    font-size: 14px;
+}
+.cho{
+    margin-bottom: 19px;
+}
+.why{
+    margin-left: 10%;
+}
+.WCS{
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.serv3, .serv4{
+    margin-top: 17%;
+}
+.text2, .text4, .text8, .text6{
+    margin-top: 5%;
+}
+.text3, .text7, .text5, .text1{
+    font-size: 22px;
+    margin-top: 8%;
+}
+.prc{
+    margin-top: 10%;
+    align-items: center;
+}
+.price{
+    font-size: 40px;
+    margin-left: 34%;
+}
+.w1{
+    margin-left: 37%;
+}
+.w2{
+    margin-left: 45%;
+    margin-top: 0.3%;
+}
+.cards{
+    margin-top: 10%;
+}
+.wrapper{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center; 
+   margin-left: 11%;
+   margin-top: 5%;
+
+}
+.wrapper .card, .card2{
+    max-width: 300px;
+    background-color: white;
+    padding: 40px;
+    margin: 30px 15px;
+    border-radius: 10px;
+}
+.wrapper .card{
+display: block;
+border: 1px solid rgb(29, 155, 240);
+
+}
+
+.wrapper .card h3{
+    margin-bottom: 15px;
+}
+.wrapper .card2 h3{
+    margin-bottom: 15px;
+}
+
+.wrapper .card h1{
+    margin-bottom: 10px;
+}
+.wrapper .card2 h1 span{
+    color: white;
+}
+.card2{
+    background-color: rgba(5, 24, 134, 0.8);
+    color: white;
+    height: 460px;
+}
+.wrapper .card p{
+margin: 20px 0;
+font-size: 14px;
+line-height: 1.5;
+}
+.wrapper .card2 p{
+    margin: 20px 0;
+    font-size:14px;
+    line-height:1.5;
+}
+.wrapper .card ul{
+    list-style: none;
+}
+.wrapper .card, .card2 ul{
+    list-style: none;
+}
+.wrapper .card ul li{
+    line-height: 3;
+}
+.wrapper .card2 ul li{
+    line-height: 3;
+}
+.custom{
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+.select{
+    border: none;
+    background-color:rgba(5, 117, 230, 0.993) ;
+    margin-left: 2%;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+}
+.get{
+    color:rgba(5, 117, 230, 0.993);
+    border-style:outset;
+    border:blue;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+    border: 1px solid rgb(10, 48, 221);
+}
+
+.domain{
+    margin-top: 10%;
+    background-color: rgb(30, 52, 72,1);
+    height: 602px;
+}
+.inform{
+    position: relative;
+    bottom: 27pc;
+    right: 1pc;
+    background-color: aliceblue;
+    margin-left: 33%;
+    height: 300px;
+    width: 600px;
+    border-radius: 12px;
+}
+input{
+    margin-left: 40px;
+    margin-top: 20px;
+    width:520px;
+    height: 47px;
+    background-color:white;
+    border-style:double;
+    border-radius: 5px;
+    border: 1px solid rgb(29, 155, 240);
+    font-size: 12px;
+    
+}
+input::placeholder{
+    font-size: 15px;
+    margin-left:0px;
+    padding: 17px;
+    color: rgb(29, 155, 240);
+}
+.do{
+    width: 220px;
+    display: inline-block;
+}
+.ali{
+    width: 140px;
+    
+}
+.trim{
+    display: block;
+}
+.cli p{
+    margin-top: 4%;
+    margin-left: 9%;
+    font-size: 17px;
+    color: rgb(50, 132, 255, 1);
+}
+
+
+.cli .priv{
+    margin-top:2.6px;
+}
+.trim{
+    margin-top: 24px;
+    font-weight: 550;
+    margin-left: 7%;
+    background-color: rgba(5, 117, 230, 0.993);
+    color: white;
+    border: none;
+    padding-left: 38%;
+    padding-right: 38%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+}
+.faqs{
+    margin-top: 2%;
+    display: flexbox;
+    justify-content: space-between;
+}
+.faqs span{
+    color: black;
+    font-weight: 600;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+.faqs .fq{
+    margin-bottom: 3%;
+    margin-left: 50%;
+}
+
+.faqs .question{
+    display: flex;
+margin-top: 1.1%;
+margin-bottom: 1.3%;
+margin-left: 20%;
+}
+.faqs hr{
+    width: 63%;
+    margin-left:20%;
+}
+.faqs .answer{
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+.faqs .signs{
+    margin-left: 40%;
+
+    align-items: end;
+}
+
+.rev{
+    margin-top: 15%;
+    background-color: rgb(30, 52, 72,1);
+    height: 380px;
+}
+.signas{
+    margin-right: 20%;
+}
+.sia{
+    margin-left: 82%;
+}
+.sian{
+    margin-left: 163%;
+
+}
+.siaan{
+    margin-left: 129%;
+}
+.sin{
+    margin-left: 136%;
+}
+.rew{
+    margin-left: 30%;
+    margin-top: -12%;
+}
+.revol{
+    color: white;
+    font-size: 45px;
+}
+.sta{
+    margin-top: 5%;
+    margin-left: 30%;
+    background-color: rgba(0, 90, 226, 1);
+    color: white;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 36px;
+}
+.footy{
+    margin-top: 10%;
+    display: flex;
+    padding-left: 15%;
+    justify-content: space-between;
+}
+.sics{
+    padding-left: 1%;
+}
+.footend{
+    margin-left: 90%;
+    display: inline-block;
+}
